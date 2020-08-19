@@ -1,0 +1,75 @@
+
+	/* Estilizando a mensagem dos input*/
+	label.error{
+		color: rgba(255, 0, 0, 1); 
+		font-weight: normal;
+		padding: 5px 0px;
+	}
+
+	/* A linha que sepera o formulário comum com botões do facebook e google */
+	hr{
+		border-style: solid 5px;
+		border-width: 3px;
+	}
+
+	body{
+		margin-bottom: 40px;
+	}
+
+	h2 , label, button, p , a , h4{
+		font-family: 'PT Serif', serif;
+	}
+
+	#container_login{
+		margin: 0 auto;
+		float: none;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+
+	#txt_login{
+		text-align: center;
+		font-weight: bold;
+	}
+
+
+	
+	#button_login{
+		float: right; 
+		width: 160px;
+	}
+
+	/* Mensagem: "Já tem uma conta"; */
+	#p_mensagem{
+		text-align: center;
+		margin-top: 70px;
+	}
+
+	
+	#div_button{
+		margin-bottom: 20px;
+	}
+
+	#img_logo{
+		height: 55px;
+		width: 530px;
+		margin-bottom: 30px;
+		margin-top: 30px;
+
+		/* Centraliza a imagem */
+		display: block;
+		margin-left: auto;
+		margin-right: auto
+	}
+
+
+    #facebook{ 
+    	background: #3b5998; 
+    	color: white;
+    	width: 150px;
+    }
+
+    #google{
+    	background: #dd4b39;
+    	color: white;
+    	width: 150px;
+    }
